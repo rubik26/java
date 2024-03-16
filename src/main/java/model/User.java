@@ -1,11 +1,11 @@
 package model;
 
-
 public class User {
     private int id;
     private String name;
     private int age;
     private String email;
+
 
 
     public int getId() {
@@ -48,4 +48,3 @@ public class User {
                 " email: " + email + "}";
     }
 }
-
