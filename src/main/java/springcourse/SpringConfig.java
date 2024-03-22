@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("springcourse")
+@ComponentScan("springcourse.user")
 @PropertySource("classpath:user.properties")
 public class SpringConfig {
 
